@@ -1,0 +1,23 @@
+package com.exercise.spring.model;
+
+public enum Status {
+
+    NEW ("New"),
+    ASSIGNED ("Assigned"),
+    IN_PROGRESS ("In Progress"),
+    CLOSED ("Closed");
+
+    private final String status;
+
+    Status(String status) {
+    	this.status = status;
+    	}
+
+    public String getStatus() {
+    	return status;
+    	}
+
+}
+	
+
+
